@@ -1,0 +1,13 @@
+<div class="mb-5">
+  <.back navigate={~p"/albums"}>Back to albums</.back>
+</div>
+<.header>
+  Album
+</.header>
+<.list>
+  <:item title="Title"><%= @album.title %></:item>
+  <:item title="Artist"><%= @album.artist %></:item>
+  <:item title="Summary"><%= @album.summary %></:item>
+  <:item title="Year"><%= @album.year %></:item>
+  <:item title="Genre"><%= @album.genre %></:item>
+</.list>
